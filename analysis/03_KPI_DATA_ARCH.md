@@ -57,7 +57,7 @@ The process is built as a scheduled **CTAS** (`Create Table As Select`) job that
 
 1.  **Ingestion Pre-Requisite:** The main data ingestion bot (Cloud Function) successfully **inserts** the raw logs for the previous day into the partitioned `events` table.
 2.  **Transformation (CTAS Job):** A BigQuery Scheduled Query is executed (e.g., at 05:15 AM). This query runs the complete aggregation logic over the entire `events` table.
-3.  **Loading:** The query uses 'CREATE OR REPLACE׳ to overwrite the existing `daily_kpi_summary` table with the fresh, calculated metrics.
+3.  **Loading:** The query uses `CREATE OR REPLACE` to overwrite the existing `daily_kpi_summary` table with the fresh, calculated metrics.
 4.  **Efficiency:** This process only pays for the heavy computation once (`CTAS`), and then all subsequent reporting tools access the small, cheap, and fast `daily_kpi_summary` table.
 
 ### Reporting Query Example
