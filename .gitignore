@@ -1,0 +1,8 @@
+# Google Cloud Credentials
+credentials.json
+
+# Python cache & virtual environments
+__pycache__/
+*.pyc
+venv/
+.venv/

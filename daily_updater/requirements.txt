@@ -1,0 +1,7 @@
+pandas
+numpy
+faker
+tqdm
+pandas-gbq
+google-cloud-bigquery
+functions-framework
