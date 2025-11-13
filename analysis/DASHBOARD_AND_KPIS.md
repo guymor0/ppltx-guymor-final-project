@@ -1,6 +1,7 @@
 # 💰 Coin Master - Daily Dashboard
 
-This dashboard is built using the pre-aggregated `daily_kpi_summary` table to ensure fast loading times and efficiency.
+This dashboard is built using the pre-aggregated `daily_kpi_summary` table to ensure fast loading times and efficiency.  
+**[Link to Full Dashboard & KPI Analysis](https://lookerstudio.google.com/reporting/2b6ec579-b5b0-437d-98e7-42799c8c5193)**
 
 ---
 
