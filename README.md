@@ -1,4 +1,4 @@
-# Coin Master: End-to-End Data Analytics Project
+# 🪙 Coin Master: End-to-End Data Analytics Project
 
 This project simulates the complete data lifecycle of the mobile game Coin Master. It includes a stateful Python data generator, SQL queries for data warehousing, a 2-page executive dashboard, and in-depth product/analytics case studies.
 
@@ -16,7 +16,6 @@ I selected Coin Master due to its relevance to the gaming company I aspire to wo
 ### Audience Demographics:
 The primary audience is predominantly female (69%), with 31% male players. The game is particularly popular among individuals in their 40s. [**Source: canvasbusinessmodel.com**](https://canvasbusinessmodel.com/blogs/target-market/moon-active-target-market)
 
-
 ---
 
 ## 2. 🚀 Project Overview & Structure
@@ -24,16 +23,18 @@ The primary audience is predominantly female (69%), with 31% male players. The g
 This project is divided into several key components, each located in its own folder:
 
 * **`/daily_updater`**: Contains the stateful Python data generator that runs as a Google Cloud Function to simulate new installs and returning user behavior.
-* **`/queries`**: Contains all SQL queries used for analysis, including the logic for the retention cohort chart and the daily KPI summary table.
-* **`/analysis`**: Contains all in-depth analysis documents, including the new feature proposal (A/B Test), the KPI definitions, and the dashboard case study.
+* **`/queries`**: Contains all SQL queries used for analysis. Please see the **`queries/README.md`** for a detailed breakdown of the queries for each dataset (Main Project vs. Tutorial Analysis).
+* **`/analysis`**: Contains all in-depth analysis documents, case studies, and project definitions (formerly `/analysis`).
 
 ---
 
-## 3. 📊 Dashboard & Case Study
+## 3. 📊 Dashboard & In-Depth Analysis
 
-The final output is a 2-page Looker Studio dashboard.
+The primary output is a 2-page Looker Studio dashboard powered by a pre-aggregated BigQuery table.
 
-**[Link to Full Dashboard & KPI Analysis](https://lookerstudio.google.com/reporting/2b6ec579-b5b0-437d-98e7-42799c8c5193)**
+**[Link to Main Looker Studio Dashboard](https://lookerstudio.google.com/reporting/2b6ec579-b5b0-437d-98e7-42799c8c5193)**
+
+### High-Level Case Study (from Dashboard)
 
 A high-level case study based on this dashboard:
 
@@ -45,6 +46,12 @@ A high-level case study based on this dashboard:
 4.  **Conclusion:** The campaign achieved 0% Day 1 retention and 0% conversion, strongly suggesting an audience mismatch.
 5.  **Action**: Confirm the marketing campaign source and segment the traffic (using the Country Filter) to pinpoint the mismatching audience.
 
-**[Link to Full Case Study & Product Analysis](analysis/PRODUCT_AND_CASE_STUDY.md)**
+### Full Project Documentation
 
+For a complete breakdown of all analyses, definitions, and case studies, please see the `analysis` folder. Key documents include:
 
+* **[Tutorial Funnel Analysis](analysis/01_TUTORIAL_ANALYSIS.md)**: A separate funnel analysis for the user tutorial (includes link to its own **[dashboard](https://lookerstudio.google.com/reporting/f7f80e26-f2ba-4df3-a111-698ac8b029c1)**)
+* **[Analytics Event Definitions](analysis/02_ANALYTICS_EVENTS.md)**: Definitions for all key in-app events.
+* **[KPIs & Data Architecture](analysis/03_KPI_DATA_ARCH.md)**: Definitions for all main KPIs and the data architecture.
+* **[Dashboard & Case Study Deep Dive](analysis/04_DASHBOARD_ANALYSIS.md)**: The full, in-depth case study of the DAU volatility incident.
+* **[Product Feature Analysis (A/B Test)](analysis/05_PRODUCT_FEATURE.md)**: Proposal and analysis for the "Raid League" feature.
