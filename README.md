@@ -45,5 +45,6 @@ A high-level case study based on this dashboard:
 4.  **Conclusion:** The campaign achieved 0% Day 1 retention and 0% conversion, strongly suggesting an audience mismatch.
 5.  **Action**: Confirm the marketing campaign source and segment the traffic (using the Country Filter) to pinpoint the mismatching audience.
 
-**[Link to Full Case Study & Product Analysis](./analysis/Product_and_Case_Study.md)**
+**[Link to Full Case Study & Product Analysis](analysis/PRODUCT_AND_CASE_STUDY.md)**
+
 
