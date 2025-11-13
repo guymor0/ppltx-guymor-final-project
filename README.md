@@ -14,7 +14,8 @@ I selected Coin Master due to its relevance to the gaming company I aspire to wo
 * **From the Business Perspective:** To monetize this deep engagement. The app aims to convert users into paying customers who purchase in-app items (like spins or coins) to accelerate their progress.
 
 ### Audience Demographics:
-The primary audience is predominantly female (69%), with 31% male players. The game is particularly popular among individuals in their 40s. (Source: canvasbusinessmodel.com)
+The primary audience is predominantly female (69%), with 31% male players. The game is particularly popular among individuals in their 40s. [**Source: canvasbusinessmodel.com**](https://canvasbusinessmodel.com/blogs/target-market/moon-active-target-market)
+
 
 ---
 
@@ -32,7 +33,7 @@ This project is divided into several key components, each located in its own fol
 
 The final output is a 2-page Looker Studio dashboard.
 
-**[Link to Full Dashboard & KPI Analysis](./analysis/Dashboard_and_KPIs.md)**
+**[Link to Full Dashboard & KPI Analysis](https://lookerstudio.google.com/reporting/2b6ec579-b5b0-437d-98e7-42799c8c5193)**
 
 A high-level case study based on this dashboard:
 
@@ -40,7 +41,9 @@ A high-level case study based on this dashboard:
 
 1.  **Finding 1 (Acquisition):** The `Daily Installs` chart shows an identical spike, confirming the DAU spike was **100% driven by new installs**.
 2.  **Finding 2 (Conversion):** The `Daily Revenue & Depositors` chart shows **$0 revenue** and **0 paying users** from this cohort.
-3.  **Finding 3 (Retention):** The `Daily Retention` cohort chart (Page 2) shows **0% Day 1 Retention** for the "10 Nov" cohort.
-4.  **Conclusion:** The data proves a marketing campaign drove high-volume "junk traffic" with 0% conversion and 0% retention.
+3.  **Finding 3 (Retention):** The `Daily Retention` cohort chart (Page 2) shows **0% Day 2 Retention** for the "10 Nov" cohort.
+4.  **Conclusion:** The campaign achieved 0% Day 1 retention and 0% conversion, strongly suggesting an audience mismatch.
+5.  **Action**: Confirm the marketing campaign source and segment the traffic (using the Country Filter) to pinpoint the mismatching audience.
 
 **[Link to Full Case Study & Product Analysis](./analysis/Product_and_Case_Study.md)**
+
